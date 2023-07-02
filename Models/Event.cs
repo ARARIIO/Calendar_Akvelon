@@ -1,6 +1,7 @@
-﻿namespace Calendar
+﻿
+namespace Calendar.Models
 {
-    public class Event
+    public abstract class Event
     {
         public int Id { get; set; } // уникальный идентификатор события
         public string? Title { get; set; } // название события
@@ -10,7 +11,7 @@
 
         public required User User { get; set; }
 
-        public Event(User user)
+        protected Event(User user)
         {
             User = user;
             UserId = user.Id;
