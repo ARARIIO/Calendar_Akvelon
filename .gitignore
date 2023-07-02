@@ -1,0 +1,178 @@
+# Rider specific files
+.idea/
+
+# Compiled output
+/bin/
+/obj/
+
+# Local configuration files
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries
+/.idea/shelf
+/.idea/vcs.xml
+/.idea/assetWizardSettings.xml
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcsHistory.xml
+/.idea/watcherTasks.xml
+/.idea/.name
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+
+# MSTest test Results
+TestResults/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ny[Cc]pu/
+[Ll]og/
+BuildLog.htm
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Publish profiles
+*.pubxml
+*.publish.xml
+*.pp
+*.publish.proj
+*.publishedproj
+*.dbmdl
+*.udl
+
+# Azure
+*.cspkg
+*.csdef
+*.cscfg
+*.svclog
+*.config
+
+# Office Add-in deployment
+*.app
+*.appx
+*.appxbundle
+*.appxupload
+*.appxsym
+*.pfx
+*.vsix
+*.wapproj
+*.wpp
+*.yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+*.base.css
+*.css.map
+*.css.ts
+*.d.ts.map
+*.debug.js
+*.js.map
+*.esm.js
+*.esm.js.map
+*.mjs.map
+*.mjs.deps
+*.mjs.entrypoints
+*.cjs
+*.cjs.map
+*.mjs
+*.mjs.map
+*.tsx.map
+*.jsx.map
+*.tsx.d
+
+# Webpack
+*.hot-update.json
+*.hot-update.js
+
+# Xamarin
+*.apk
+*.ap_
+*.aab
+*.bundle
+*.so
+*.keystore
+*.pfx
+*.dll
+*.nupkg
+*.ipa
+*.dmg
+*.dSYM.zip
+*.dSYM
+*.dsym
+*.json.*
+*.ipa.*
+*.dmg.*
+*.AppxUpload
+
+# Rider
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+*/.idea/.idea.*
+*/.idea/*.tasks
+*/.idea/dictionaries
+*/.idea/assetWizardSettings.xml
+*/.idea/encodings.xml
+*/.idea/misc.xml
+*/.idea/modules.xml
+*/.idea/vcs.xml
+*/.idea/watcherTasks.xml
+*/.idea/codeStyles
+.idea
+*.dotSettings
+
+# Editor directories and files
+_UpgradeReport_Files/
+_ReSharper.*
+[Rr]eSharper/
+*.DotSettings.user
+
+# Misc
+*.bak
+*.cache
+*.log
+*.idea/deployment.xml
+*.vs/
+*.vssscc
+*.zip
+*.sln.iml
+*.sln.idea
+*.ide
+*.codespace
+
+# Ignore Visual Studio Code settings
+.vscode/
+*.code-workspace
