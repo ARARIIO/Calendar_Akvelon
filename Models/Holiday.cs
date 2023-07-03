@@ -5,6 +5,7 @@ namespace Calendar.Models
 {
     public class Holiday
     {
+        
         public int Id { get; set; } // уникальный идентификатор праздника
         
         [Required]

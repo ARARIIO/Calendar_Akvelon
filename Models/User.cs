@@ -5,6 +5,7 @@ namespace Calendar.Models
 {
     public class User
     {
+        [Key]
         public int Id { get; set; } // уникальный идентификатор пользователя
         
         [Required]
