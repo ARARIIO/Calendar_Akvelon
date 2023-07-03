@@ -12,6 +12,7 @@
     <list default="true" id="f5768c55-63e3-4335-a26f-44ed7d31c3f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Calendar/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calendar/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Calendar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calendar/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Calendar.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Calendar.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Context/CalendarDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Context/CalendarDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Calendar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Calendar.cs" afterDir="false" />
@@ -67,9 +68,11 @@
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
+=======
+>>>>>>> 7f964e4f4d33f6c9904d6c6bac32b442af3839b6
       <change beforePath="$PROJECT_DIR$/obj/Calendar.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Calendar.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Calendar.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Calendar.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Calendar.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Calendar.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Calendar.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -97,7 +100,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2RqN47b5myoYhheU2Z33MWoCDzU" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -110,6 +113,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,9 +127,9 @@
       "postgresql"
     ],
     "rider.external.source.directories": [
-      "C:\\Users\\Артур\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Артур\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Артур\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\lokla\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\lokla\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\lokla\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -187,8 +191,13 @@
       <workItem from="1687973462828" duration="138000" />
       <workItem from="1687973800229" duration="1084000" />
       <workItem from="1688116946221" duration="9664000" />
+<<<<<<< HEAD
       <workItem from="1688383168820" duration="85000" />
       <workItem from="1688387497534" duration="886000" />
+=======
+      <workItem from="1688378164042" duration="163000" />
+      <workItem from="1688378475417" duration="2867000" />
+>>>>>>> 7f964e4f4d33f6c9904d6c6bac32b442af3839b6
     </task>
     <servers />
   </component>
