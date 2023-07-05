@@ -10,8 +10,12 @@ namespace Calendar.Context
         public DbSet<Holiday> Holidays { get; set; }
         public DbSet<Models.Calendar> Calendars { get; set; }
 
-        protected CalendarDbContext()
+        protected CalendarDbContext(DbSet<User> users, DbSet<Event> events, DbSet<Holiday> holidays, DbSet<Models.Calendar> calendars)
         {
+            Users = users;
+            Events = events;
+            Holidays = holidays;
+            Calendars = calendars;
         }
 
         public CalendarDbContext(DbContextOptions options) : base(options)

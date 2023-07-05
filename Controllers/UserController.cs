@@ -23,18 +23,18 @@ namespace Calendar.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<User> GetUser(int id)
+        public IActionResult GetUser(int id)
         {
             var user = _context.Users.Find(id);
             if (user == null)
             {
                 return NotFound();
             }
-            return user;
+            return Ok(user);
         }
 
         [HttpPost]
-        public ActionResult<User> CreateUser(User user)
+        public IActionResult CreateUser(User user)
         {
             _context.Users.Add(user);
             _context.SaveChanges();
@@ -44,10 +44,18 @@ namespace Calendar.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, User updatedUser)
         {
-            updatedUser.Id = id; // Установка идентификатора пользователя
-            _context.Update(updatedUser);
-            _context.SaveChanges();
+            var user = _context.Users.Find(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
 
+            // Обновление свойств пользователя
+            user.FullName = updatedUser.FullName;
+            user.Email = updatedUser.Email;
+            user.Password = updatedUser.Password;
+
+            _context.SaveChanges();
             return NoContent();
         }
 
@@ -60,9 +68,8 @@ namespace Calendar.Controllers
                 return NotFound();
             }
 
-            _context.Remove(user);
+            _context.Users.Remove(user);
             _context.SaveChanges();
-
             return NoContent();
         }
     }

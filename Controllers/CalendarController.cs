@@ -34,7 +34,8 @@ namespace Calendar.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Models.Calendar> CreateCalendar(Models.Calendar calendar)
+        public IActionResult CreateCalendar([FromBody] Models.Calendar calendar)
+
         {
             _context.Calendars.Add(calendar);
             _context.SaveChanges();

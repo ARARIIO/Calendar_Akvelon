@@ -20,7 +20,7 @@ namespace Calendar.Controllers
         public IEnumerable<Event> GetEvents()
         {
             return _context.Events;
-        }
+        }   
 
         [HttpGet("{id}")]
         public ActionResult<Event> GetEvent(int id)

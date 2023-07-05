@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lokla\\OneDrive\\Рабочий стол\\Calendar_Akvelon\\Calendar.csproj": {}
+    "C:\\Users\\Dos\\Desktop\\C#\\Cal\\Calendar_Akvelon\\Calendar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lokla\\OneDrive\\Рабочий стол\\Calendar_Akvelon\\Calendar.csproj": {
+    "C:\\Users\\Dos\\Desktop\\C#\\Cal\\Calendar_Akvelon\\Calendar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lokla\\OneDrive\\Рабочий стол\\Calendar_Akvelon\\Calendar.csproj",
+        "projectUniqueName": "C:\\Users\\Dos\\Desktop\\C#\\Cal\\Calendar_Akvelon\\Calendar.csproj",
         "projectName": "Calendar",
-        "projectPath": "C:\\Users\\lokla\\OneDrive\\Рабочий стол\\Calendar_Akvelon\\Calendar.csproj",
-        "packagesPath": "C:\\Users\\lokla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lokla\\OneDrive\\Рабочий стол\\Calendar_Akvelon\\obj\\",
+        "projectPath": "C:\\Users\\Dos\\Desktop\\C#\\Cal\\Calendar_Akvelon\\Calendar.csproj",
+        "packagesPath": "C:\\Users\\Dos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dos\\Desktop\\C#\\Cal\\Calendar_Akvelon\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lokla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -103,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

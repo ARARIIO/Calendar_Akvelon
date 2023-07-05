@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddDbContext<CalendarDbContext>(sp => sp.UseNpgsql("Server=localhost;Database=CalendarDB;Port=5432;User Id=postgres;Password=Arario;"));
+builder.Services.AddDbContext<CalendarDbContext>(sp => sp.UseNpgsql("Server=localhost;Database=CalendarDB;Port=5432;User Id=postgres;Password=152;"));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
